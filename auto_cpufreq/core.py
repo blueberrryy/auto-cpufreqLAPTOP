@@ -696,7 +696,7 @@ def set_powersave():
                 turbo(True)
 
             # set turbo state based on average of all core temperatures
-            elif cpuload <= 20 and avg_all_core_temp >= 70:
+            elif cpuload <= 20 and avg_all_core_temp >= 85:
                 print(
                     "Optimal total CPU usage:",
                     cpuload,
@@ -907,7 +907,7 @@ def set_performance():
                 turbo(True)
 
             # set turbo state based on average of all core temperatures
-            elif avg_all_core_temp >= 70:
+            elif avg_all_core_temp >= 88:
                 print(
                     "Optimal total CPU usage:",
                     cpuload,
@@ -930,7 +930,7 @@ def set_performance():
                 turbo(True)
 
             # set turbo state based on average of all core temperatures
-            elif avg_all_core_temp >= 65:
+            elif avg_all_core_temp >= 88:
                 print(
                     "Optimal total CPU usage:",
                     cpuload,
@@ -953,7 +953,7 @@ def set_performance():
                 turbo(True)
 
             # set turbo state based on average of all core temperatures
-            elif avg_all_core_temp >= 60:
+            elif avg_all_core_temp >= 88:
                 print(
                     "Optimal total CPU usage:",
                     cpuload,
@@ -998,7 +998,7 @@ def mon_performance():
             get_turbo()
 
         # set turbo state based on average of all core temperatures
-        elif cpuload <= 25 and avg_all_core_temp >= 70:
+        elif cpuload <= 25 and avg_all_core_temp >= 88:
             print(
                 "Optimal total CPU usage:",
                 cpuload,
@@ -1021,7 +1021,7 @@ def mon_performance():
             get_turbo()
 
         # set turbo state based on average of all core temperatures
-        elif cpuload <= 25 and avg_all_core_temp >= 65:
+        elif cpuload <= 25 and avg_all_core_temp >= 88
             print(
                 "Optimal total CPU usage:",
                 cpuload,
@@ -1044,7 +1044,7 @@ def mon_performance():
             get_turbo()
 
         # set turbo state based on average of all core temperatures
-        elif cpuload <= 25 and avg_all_core_temp >= 60:
+        elif cpuload <= 25 and avg_all_core_temp >= 88:
             print(
                 "Optimal total CPU usage:",
                 cpuload,
